@@ -1,16 +1,25 @@
-# Vision Accounts Website
+# Vision Accounts Website 2.1
 
 Static website for Vision Accounts LLC.
 
-## Structure
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages ready
+## Included
+- Homepage
+- Start Your Business
+- Grow Your Business
+- Business Soft Landing
+- About
+- Client Portal
+- Contact
+- FAQ
+- Responsive CSS
+- GitHub Pages CNAME
+- Sitemap and robots.txt
 
-## Before launch
+## Connected
+- Client Portal: https://visionaccounts.clientportal.com/
+
+## Before final launch
 1. Connect the contact form to Formspree.
-2. Replace the client portal placeholder URL.
-3. Confirm final office address, phone, and email.
-4. Add Google Analytics and Search Console if desired.
-5. Point the custom domain to GitHub Pages.
+2. Confirm final email, phone, and office address.
+3. Add Google Analytics and Search Console.
+4. Review legal pages and disclaimers.
