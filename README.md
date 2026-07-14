@@ -1,25 +1,21 @@
-# Vision Accounts Website 2.1
+# Vision Accounts Website 2.2
 
-Static website for Vision Accounts LLC.
+Visual refinement of the Vision Accounts website.
 
-## Included
-- Homepage
-- Start Your Business
-- Grow Your Business
-- Business Soft Landing
-- About
-- Client Portal
-- Contact
-- FAQ
-- Responsive CSS
-- GitHub Pages CNAME
-- Sitemap and robots.txt
+## Main improvements
+- Compact navigation with Start and Grow dropdowns
+- Client Portal retained in primary navigation
+- Richer hero background and depth
+- Enhanced compliance status panel
+- Trust strip below the hero
+- Refined cards, sections, shadows, and gradients
+- Improved tablet and mobile navigation
+- GitHub Pages ready
 
 ## Connected
 - Client Portal: https://visionaccounts.clientportal.com/
 
-## Before final launch
-1. Connect the contact form to Formspree.
-2. Confirm final email, phone, and office address.
-3. Add Google Analytics and Search Console.
-4. Review legal pages and disclaimers.
+## Pending
+1. Connect contact form to Formspree.
+2. Confirm final contact information.
+3. Add analytics and Search Console.
