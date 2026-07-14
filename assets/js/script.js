@@ -15,17 +15,10 @@ document.querySelectorAll('a[href^="#"]').forEach(link=>{
   });
 });
 
-document.querySelectorAll('.has-dropdown .nav-trigger').forEach(trigger => {
-  trigger.addEventListener('click', () => {
-    if (window.innerWidth <= 900) {
-      const item = trigger.closest('.has-dropdown');
-      item.classList.toggle('open');
-    }
-  });
-});
 
-if (toggle) {
+
+if (toggle && links) {
   toggle.addEventListener('click', () => {
-    toggle.setAttribute('aria-expanded', links && links.classList.contains('open') ? 'true' : 'false');
+    toggle.setAttribute('aria-expanded', links.classList.contains('open') ? 'true' : 'false');
   });
 }
