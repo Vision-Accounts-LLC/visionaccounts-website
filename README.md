@@ -1,20 +1,16 @@
-# Vision Accounts Website 2.3
+# Vision Accounts Website 2.4 Mobile
 
-Refined static website for Vision Accounts LLC.
+Mobile-first correction for Vision Accounts.
 
-## Main changes
-- Simplified primary navigation:
-  - About
-  - Start Your Business
-  - Grow Your Business
-  - Client Portal
-  - Schedule a Consultation
-- Removed dropdown menus
-- Reduced logo and header height
-- Added cleaner navigation hover states
-- Added a visual feature band below the hero
-- Preserved the Business Soft Landing section within the website
-- Improved responsive navigation
+## Main fixes
+- Prevented horizontal overflow on mobile.
+- Stacked the hero correctly on small screens.
+- Moved the compliance panel below the copy.
+- Reworked mobile typography and spacing.
+- Made CTA buttons full-width on mobile.
+- Redesigned the mobile menu.
+- Improved cards, sections, footer, and forms for small screens.
+- Preserved the desktop design and navigation.
 
 ## Connected
 - Client Portal: https://visionaccounts.clientportal.com/
