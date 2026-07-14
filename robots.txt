@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://visionaccounts.us/sitemap.xml
