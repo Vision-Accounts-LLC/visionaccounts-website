@@ -1,9 +1,12 @@
-# Vision Accounts Website V3
+# Vision Accounts Website V3.1
 
-Static HTML/CSS/JS website for GitHub Pages.
+Production-ready static website for GitHub Pages.
 
-Connected services:
-- Formspree: https://formspree.io/f/xgogvdaq
-- Client Portal: https://visionaccounts.clientportal.com/
+## V3.1 changes
+- Added dedicated thank-you page after successful Formspree submission.
+- Contact form redirects to `thank-you.html` after submission.
+- Added a fallback `_next` URL for non-JavaScript submission.
+- Thank-you page includes Return to Home and Client Portal actions.
 
-Upload the complete contents of this folder to the repository root.
+## Formspree endpoint
+https://formspree.io/f/xgogvdaq
