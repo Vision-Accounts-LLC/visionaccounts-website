@@ -1,15 +1,6 @@
-# Vision Accounts Website V4.3
+# Vision Accounts Website V4.3.2
 
-Navigation:
-- About
-- Start Your Business
-- Grow Your Business
-- Trusted Network
-- Schedule Consultation
-- Client Portal
-
-Changes:
-- Removed Soft Landing from the primary menu.
-- Business Soft Landing remains part of Start Your Business and remains available as an internal page.
-- Client Portal now opens the Canopy portal directly in a new browser tab.
-- Added cache-busting for CSS and JavaScript.
+Critical fix:
+- Corrected malformed closing quotes in CSS and JavaScript asset tags.
+- Repointed header logo to an image file that exists in the ZIP.
+- Preserved the final navigation and all V4.3.1 content.

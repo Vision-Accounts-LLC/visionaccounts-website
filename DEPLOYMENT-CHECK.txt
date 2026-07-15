@@ -1,15 +1,11 @@
-VISION ACCOUNTS WEBSITE — VERSION 4.3.1
+VISION ACCOUNTS WEBSITE — VERSION 4.3.2 CSS FIX
 
-Expected desktop menu:
-About | Start Your Business | Grow Your Business | Trusted Network | Schedule Consultation | Client Portal
+This release fixes malformed HTML attributes that prevented styles.css and script.js from loading.
 
-Client Portal opens directly in a new tab:
-https://visionaccounts.clientportal.com/
-
-After upload, open:
-https://visionaccounts.us/index.html?version=431
-
-Then use View Source and search for:
-HEADER VERSION: 4.3.1
-
-If that text is absent, GitHub is still publishing older HTML or files were uploaded to the wrong folder/branch.
+After upload:
+1. Wait for GitHub Pages deployment.
+2. Open https://visionaccounts.us/?version=432
+3. Hard refresh.
+4. View page source and confirm:
+   assets/css/styles.css?v=4.3.2
+   assets/js/script.js?v=4.3.2
