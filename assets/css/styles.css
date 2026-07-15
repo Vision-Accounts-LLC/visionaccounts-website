@@ -405,3 +405,63 @@ body:has(.page-hero) .page-hero{
     top:-110px;
   }
 }
+
+/* V4.5 bilingual + iOS Safari FAQ color fix */
+.faq-q,
+.faq-q:visited,
+.faq-q:hover,
+.faq-q:active{
+  color:var(--ink) !important;
+  -webkit-text-fill-color:var(--ink);
+  -webkit-appearance:none;
+  appearance:none;
+}
+
+.faq-q span{
+  color:var(--green-dark) !important;
+  -webkit-text-fill-color:var(--green-dark);
+}
+
+button,
+select,
+input,
+textarea{
+  font:inherit;
+}
+
+.language-switch{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  min-height:38px;
+  padding:0 11px;
+  border:1px solid #d7e2da;
+  border-radius:999px;
+  background:#fff;
+  color:var(--muted);
+  font-size:.76rem;
+  font-weight:850;
+}
+
+.language-switch a{
+  color:var(--muted);
+  text-decoration:none;
+}
+
+.language-switch a.active{
+  color:var(--green-dark);
+}
+
+.language-switch a:hover{
+  color:var(--green);
+}
+
+@media(max-width:1080px){
+  .language-switch{
+    width:100%;
+    justify-content:center;
+    min-height:46px;
+    margin-top:6px;
+    font-size:.95rem;
+  }
+}

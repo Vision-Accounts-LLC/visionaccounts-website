@@ -1,11 +1,11 @@
-# Vision Accounts Website V4.4
+# Vision Accounts Website V4.5 Bilingual
 
-Changes:
-- Added the official LEGAL KEY logo supplied by the user.
-- Added the official AMPLIFY logo supplied by the user.
-- Converted both logos to a consistent monochrome treatment.
-- Preserved the official NORTHREACH logo.
-- Retained the existing CASA NORTE monochrome placeholder until its official logo is provided.
-- Added subtle gradients, green glow, and a restrained grid texture to hero and page-header backgrounds.
-- Improved visual depth without using generic stock imagery.
-- Preserved Formspree, direct Client Portal access, and final navigation.
+Included:
+- Full English site at the root.
+- Full Spanish site under /es/.
+- EN | ES selector on every page.
+- Equivalent-page language switching.
+- hreflang tags for English, Spanish, and x-default.
+- Shared CSS, JavaScript, images, Formspree, and Client Portal.
+- Spanish thank-you and contact flow.
+- Mobile Safari FAQ color fix to prevent blue default button text.
