@@ -1,6 +1,9 @@
-# Vision Accounts Website 2.5 Formspree
+# Vision Accounts Website V3
 
-Connected Formspree endpoint:
-https://formspree.io/f/xgogvdaq
+Static HTML/CSS/JS website for GitHub Pages.
 
-The contact form now includes lead qualification fields, AJAX submission, inline confirmation, and source tracking.
+Connected services:
+- Formspree: https://formspree.io/f/xgogvdaq
+- Client Portal: https://visionaccounts.clientportal.com/
+
+Upload the complete contents of this folder to the repository root.
