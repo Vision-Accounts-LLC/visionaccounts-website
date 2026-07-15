@@ -1,8 +1,15 @@
-# Vision Accounts Website V4.1
+# Vision Accounts Website V4.3
 
-- New floating compact navigation.
-- Rebuilt Business Soft Landing process visual.
-- Trusted Network now uses monochrome logos.
-- Supplied AMPLIFY and NORTHREACH logos included.
-- Temporary monochrome wordmarks created for LEGAL KEY and CASA NORTE.
-- Formspree and thank-you page preserved.
+Navigation:
+- About
+- Start Your Business
+- Grow Your Business
+- Trusted Network
+- Schedule Consultation
+- Client Portal
+
+Changes:
+- Removed Soft Landing from the primary menu.
+- Business Soft Landing remains part of Start Your Business and remains available as an internal page.
+- Client Portal now opens the Canopy portal directly in a new browser tab.
+- Added cache-busting for CSS and JavaScript.
