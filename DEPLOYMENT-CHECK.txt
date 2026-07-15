@@ -1,0 +1,15 @@
+VISION ACCOUNTS WEBSITE — VERSION 4.3.1
+
+Expected desktop menu:
+About | Start Your Business | Grow Your Business | Trusted Network | Schedule Consultation | Client Portal
+
+Client Portal opens directly in a new tab:
+https://visionaccounts.clientportal.com/
+
+After upload, open:
+https://visionaccounts.us/index.html?version=431
+
+Then use View Source and search for:
+HEADER VERSION: 4.3.1
+
+If that text is absent, GitHub is still publishing older HTML or files were uploaded to the wrong folder/branch.
