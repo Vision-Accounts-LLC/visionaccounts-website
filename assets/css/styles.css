@@ -43,3 +43,46 @@ footer{background:#151a17;color:#fff;padding:68px 0 24px;margin-top:90px}.footer
 @media(max-width:1050px){.network-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:900px){.journey-strip{grid-template-columns:1fr 1fr}.journey-strip>div:nth-child(3){border-left:0;border-top:1px solid var(--line)}.journey-strip>div:nth-child(4){border-top:1px solid var(--line)}}
 @media(max-width:620px){.network-grid,.journey-strip{grid-template-columns:1fr}.network-card p{min-height:auto}.journey-strip>div+div{border-left:0;border-top:1px solid var(--line)}.setup-board{padding:18px}.about-visual{min-height:390px}}
+
+/* V4.1 */
+body{padding-top:94px}
+.site-header{position:fixed;inset:0 0 auto;height:94px;display:flex;align-items:center;background:transparent;box-shadow:none;border:0;z-index:1000;pointer-events:none}
+.nav-shell{width:min(1420px,calc(100% - 36px));height:68px;margin:auto;padding:0 14px 0 20px;display:flex;align-items:center;gap:26px;border:1px solid rgba(211,223,215,.92);border-radius:20px;background:rgba(255,255,255,.94);backdrop-filter:blur(18px);box-shadow:0 14px 42px rgba(19,46,30,.10);pointer-events:auto}
+.nav-shell .brand img{width:166px}
+.nav-shell .nav-links{margin-left:auto;gap:25px}
+.nav-shell .nav-links>a:not(.btn){font-size:.86rem;font-weight:820;letter-spacing:-.01em}
+.nav-shell .nav-cta{min-height:44px;padding:0 18px;font-size:.84rem!important}
+.hero{padding-top:68px}.page-hero{padding-top:64px}
+
+.soft-landing-section{background:radial-gradient(circle at 88% 12%,rgba(20,211,101,.16),transparent 25%),linear-gradient(135deg,#095235,#063b28)}
+.soft-landing-grid{align-items:center}.soft-eyebrow{color:#b8e9c9!important}.soft-copy{color:#d2e3d9!important}
+.landing-path{padding:26px;border:1px solid rgba(255,255,255,.16);border-radius:28px;background:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.landing-path-card{display:grid;grid-template-columns:54px 1fr;gap:16px;align-items:center;padding:18px;border-radius:18px;background:#fff;color:var(--ink);box-shadow:0 12px 30px rgba(0,0,0,.08)}
+.landing-path-card>span{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--green-soft);color:var(--green-dark);font-weight:900}
+.landing-path-card small{display:block;color:var(--muted);font-size:.72rem;font-weight:900;letter-spacing:.12em;margin-bottom:3px}
+.landing-path-card strong{display:block;font-size:1.02rem}
+.landing-path-card.final{background:linear-gradient(135deg,#eaf9ef,#fff);border:1px solid #a9d9b8}
+.landing-path-arrow{height:24px;display:grid;place-items:center;color:#7de8a2;font-weight:900;font-size:1.2rem}
+
+.network-section{background:linear-gradient(180deg,#f5f8f6,#fff)}
+.network-logo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.network-logo-card{min-height:250px;padding:24px;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:var(--shadow-sm);transition:.22s ease}
+.network-logo-card:hover{transform:translateY(-5px);border-color:#b8d8c3;box-shadow:0 22px 55px rgba(20,48,31,.10)}
+.network-logo-wrap{height:120px;display:grid;place-items:center;padding:14px;border-radius:16px;background:#f3f5f3;margin-bottom:22px}
+.network-logo-wrap img{width:100%;max-width:210px;max-height:86px;object-fit:contain;filter:grayscale(1) contrast(1.15)}
+.network-logo-card span{color:var(--muted);font-size:.86rem;font-weight:750;margin-bottom:14px}
+.network-logo-card strong{color:var(--green-dark);margin-top:auto;font-size:.9rem}
+
+@media(max-width:1120px){.nav-shell .nav-links{gap:17px}.nav-shell .nav-links>a:not(.btn){font-size:.78rem}.nav-shell .nav-cta{padding:0 13px}.network-logo-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){
+  body{padding-top:82px}.site-header{height:82px}
+  .nav-shell{width:calc(100% - 22px);height:62px;border-radius:17px;padding:0 10px 0 14px}
+  .nav-shell .brand img{width:150px}
+  .nav-shell .nav-links{top:70px;left:0;right:0;margin:0}
+  .hero{padding-top:42px}
+}
+@media(max-width:620px){
+  .network-logo-grid{grid-template-columns:1fr}.network-logo-card{min-height:220px}
+  .landing-path{padding:16px}.landing-path-card{grid-template-columns:46px 1fr;padding:15px}
+  .landing-path-card>span{width:42px;height:42px}
+}

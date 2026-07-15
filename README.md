@@ -1,11 +1,8 @@
-# Vision Accounts Website V4
+# Vision Accounts Website V4.1
 
-Production-ready static website for GitHub Pages.
-
-Highlights:
-- Trusted Network section with external links
-- Redesigned About and Start Your Business pages
-- Improved Business Soft Landing visual flow
-- Expanded FAQ for foreign investors, real estate ownership, and FIRPTA
-- Formspree contact flow and thank-you page
-- Responsive desktop and mobile layouts
+- New floating compact navigation.
+- Rebuilt Business Soft Landing process visual.
+- Trusted Network now uses monochrome logos.
+- Supplied AMPLIFY and NORTHREACH logos included.
+- Temporary monochrome wordmarks created for LEGAL KEY and CASA NORTE.
+- Formspree and thank-you page preserved.
