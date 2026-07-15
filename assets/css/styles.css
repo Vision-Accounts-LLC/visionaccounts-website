@@ -1059,3 +1059,9 @@ body{
     font-size:2rem;
   }
 }
+
+.form-actions{display:grid;gap:14px;align-items:start}
+.form-status{margin:0;min-height:1.5em;font-size:.95rem;font-weight:700}
+.form-status.success{color:var(--green-deep)}
+.form-status.error{color:#a61b1b}
+button:disabled{opacity:.72;cursor:not-allowed;transform:none!important;box-shadow:none!important}
